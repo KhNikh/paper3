@@ -45,10 +45,14 @@ void findIntersection(int arr1[],int arr2[],int n,int m){
 int main(){
 
     int n,m;
+    cout<<"Enter n and m"<<"\n";
     cin>>n>>m;
     int arr1[n];
     int arr2[m];
+    cout<<"Enter the elements of First array\n";
     for(int i = 0; i < n;i++)cin>>arr1[i];
+
+    cout<<"Enter the elements of Second array\n";
     for(int i =0;i<m;i++) cin>>arr2[i];
 
     findUnion(arr1,arr2,n,m);
